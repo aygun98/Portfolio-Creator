@@ -1,0 +1,29 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Patrick+Hand&family=Roboto:wght@400;700&display=swap');
+@import url(./media-query.css);
+body{
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:41px 114.5px 0px;
+}
+
+.nav-links a{
+   text-decoration: none;
+   color: black;
+   padding-right: 20px;
+}
+
+header .fa-solid{
+    
+    display: none;
+}

@@ -1,0 +1,18 @@
+@media (max-width:950px){
+   
+  .fa-solid{
+    display: flex  !important; 
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .nav-links{
+    display: none;
+  }
+}
+@media (max-width:700px){
+    header{
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+    }
+    
+}
