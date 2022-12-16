@@ -16,3 +16,53 @@
     }
     
 }
+@media (max-width:1357px) {
+  .introsection .life-side{
+    flex-basis: 100% !important;
+    text-align: center;
+  }
+  .introsection .right-side{
+    flex-basis: 70% !important;
+    
+  }
+  .introsection .right-side img{
+    width: 100%;
+  }
+}
+@media (max-width:750px) {
+  .introsection{
+    padding: 0 !important;
+  }
+  .introsection .life-side{
+    flex-basis: 100% !important;
+    min-width: 200px !important;
+    text-align: center;
+  }
+  .introsection .life-side h1{
+    font-size: 50px !important;
+
+  }
+  .introsection .life-side small{
+    font-size: 18px !important;
+    /* text-align: center; */
+  }
+  .introsection .life-side button{
+    text-align: center;
+    
+  }
+  .introsection .right-side{
+    flex-basis: 100% !important;
+  }
+  .introsection .right-side img{
+    width: 100%;
+  }
+  
+}
+@media (max-width:593px) {
+  .introsection .right-side{
+    flex-basis: 100% !important;
+  }
+  .introsection .right-side img{
+    width: 100%;
+  }
+}
