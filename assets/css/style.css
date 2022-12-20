@@ -17,12 +17,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:41px 90px 0px;
+    padding:44px 114px 0px;
 }
 
 .nav-links a{
    color: black;
-   padding-right: 20px;
+   padding-right: 40px;
 }
 
 header .fa-bars{
@@ -34,56 +34,58 @@ header .fa-bars{
 .introsection{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 90px;
+   
+    /* flex-wrap: wrap; */
+    padding: 0 112.5px;
 }
 
-.introsection .life-side h1{
+.introsection .left-side h1{
     
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
-    
+    line-height: 82px;
     letter-spacing: 2px;
     /* margin-bottom: 10px; */
     
  
 }
-.introsection .life-side h1 span{
+.introsection .left-side h1 span{
      color: #FF8A56;
 
 }
-.introsection .life-side{
+.introsection .left-side{
     display: flex;
     flex-direction: column;
     padding-top: 133.7px;
-    min-width: 660px;
+    min-width: 715px;
 }
 .introsection .right-side{
     padding-top: 82px;
-    min-width: 450px;
+    min-width: 500px;
 }
-.introsection .life-side small{
+.introsection .left-side small{
     display: inline-block;
     
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
+    line-height: 33px;
    
     color: #666666;
     margin-top: 34px;
     margin-bottom: 38px;
 }
 
-.introsection .life-side button{
+.introsection .left-side button{
     width: 151px;
     height: 58px;
     background-color:#000;
     color: #fff;
-    margin-right: 25px;
+    margin-right: 40px;
 }
 
-.introsection .life-side a{
+.introsection .left-side a{
     margin: 0 15px;
     color: #000;
     cursor: pointer;

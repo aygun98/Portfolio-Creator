@@ -1,4 +1,4 @@
-@media (max-width:950px){
+@media (max-width:1150px){
    
   .fa-bars{
     display: flex  !important; 
@@ -16,53 +16,72 @@
     }
     
 }
-@media (max-width:1357px) {
-  .introsection .life-side{
-    flex-basis: 100% !important;
-    text-align: center;
-  }
-  .introsection .right-side{
-    flex-basis: 70% !important;
-    
-  }
-  .introsection .right-side img{
-    width: 100%;
-  }
-}
-@media (max-width:750px) {
+
+
+@media (max-width:847px){
   .introsection{
+   
     padding: 0 !important;
   }
-  .introsection .life-side{
-    flex-basis: 100% !important;
-    min-width: 200px !important;
-    text-align: center;
-  }
-  .introsection .life-side h1{
-    font-size: 50px !important;
-
-  }
-  .introsection .life-side small{
-    font-size: 18px !important;
-    /* text-align: center; */
-  }
-  .introsection .life-side button{
-    text-align: center;
+  .introsection .left-side{
+    /* background-color: aquamarine; */
+    min-width: 500px !important;
     
   }
-  .introsection .right-side{
-    flex-basis: 100% !important;
+  .introsection .left-side h1{
+    text-align: center !important;
+    font-size: 60px !important;
+    line-height:65px !important;
+
   }
-  .introsection .right-side img{
-    width: 100%;
+  .introsection .left-side small{
+    text-align: center;
+    font-size: 18px !important;
+    
   }
-  
+  .introsection .left-side .book-a-call{
+    text-align: center;
+  }
+
 }
-@media (max-width:593px) {
-  .introsection .right-side{
-    flex-basis: 100% !important;
+
+@media (min-width:768px) and (max-width:1345px){
+  .introsection{
+    flex-direction: column;
+    align-items: center;
   }
-  .introsection .right-side img{
+  .introsection .left-side{
+    /* flex-basis: 100%; */
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width:768px) {
+  .introsection{
+    flex-direction: column;
+    align-items: center;
+  }
+  .introsection .left-side{
+    /* flex-basis: 100%; */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width:556px) {
+  .introsection{
+    overflow: hidden;
+   
+    
+  }
+  .introsection .left-side h1{
+    font-size: 54px !important;
+  }
+  .introsection .left-side small{
+    
+    font-size:15px !important;
+  }
+  .introsection .right-side{
     width: 100%;
   }
 }
