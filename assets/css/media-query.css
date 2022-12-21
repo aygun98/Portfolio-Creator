@@ -85,7 +85,11 @@
     width: 100%;
   }
 }
-
+@media (max-width:500px){
+  .introsection .left-side h1{
+    font-size: 45px !important;
+  }
+}
 
 @media (min-width:741px) and (max-width:982px){
   .companents1, .companents2,.companents3, .companents4{
