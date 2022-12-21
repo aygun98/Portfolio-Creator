@@ -93,8 +93,30 @@ header .fa-bars{
 }
 
 
-
-
-
-
 /* introsection  end*/
+
+/* Trusted-by-companents-section */
+.Trusted-by-companents-section h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.Trusted-by-companents-section .Trusted-by-companents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:15px 0 ;
+}
+.Trusted-by-companents-section {
+   
+    margin-top: 10px;
+
+
+}
+.companents1, .companents2,.companents3, .companents4{
+    margin: 10px 50px ;
+    min-width: 141px;
+}
+

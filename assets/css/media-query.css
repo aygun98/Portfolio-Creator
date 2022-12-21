@@ -85,3 +85,20 @@
     width: 100%;
   }
 }
+
+
+@media (min-width:741px) and (max-width:982px){
+  .companents1, .companents2,.companents3, .companents4{
+    /* flex-wrap: nowrap !important; */
+    padding: 10px 50px;
+    margin: 0 50px !important;
+  }
+}
+@media (max-width:500px) {
+  .companents1, .companents2,.companents3, .companents4{
+    padding: 10px 20px  !important;
+    margin: 0px !important;
+    /* width: 50px !important; */
+    /* justify-content: space-between; */
+  }
+}
