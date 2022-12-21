@@ -1,8 +1,10 @@
 @media (max-width:1150px){
    
-  .fa-bars{
-    display: flex  !important; 
-    font-size: 25px;
+  header .fa-bars{
+   
+    display:flex  !important; 
+    font-size: 25px !important;
+    width: 10px !important;
     cursor: pointer;
   }
   .nav-links{
@@ -24,7 +26,7 @@
     padding: 0 !important;
   }
   .introsection .left-side{
-    /* background-color: aquamarine; */
+    
     min-width: 500px !important;
     
   }
