@@ -149,13 +149,14 @@ line-height: 59px;
 text-align: center;
 letter-spacing: 1px;
 padding-top: 20px;
+padding-bottom: 117px;
 
 
 }
 .service-card img{
     min-width: 70px;
 }
-.services-carts{
+.services-cards{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -189,8 +190,12 @@ list-style: square;
 list-style-position:inside ;
 padding-top: 10px;
  }
- .service-card{
+ .service-card{ 
     min-width: 252px;
-    padding-top: 117px;
+    padding: 10px;
  }
- 
+ .service-card:hover{
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+ }
+ /* .services-cards end */
