@@ -16,7 +16,7 @@
     header{
       padding-right: 15px !important;
       padding-left: 10px !important;
-      /* overflow: hidden; */
+   
     }
     
 }
@@ -97,18 +97,19 @@
 
 
    /* Trusted-by-companents-section start */
-@media  (max-width:982px){
-  .companents1, .companents2,.companents3, .companents4{
-     flex-basis: 25% !important;
-    }
-    .Trusted-by-companents{
-  padding-left: 30px !important; 
-    }
-}
-
-@media (max-width:519px) {
-    .Trusted-by-companents{
-      padding-left: 0 !important; 
-        }
+   @media  (max-width:982px){
+    .companents1, .companents2,.companents3, .companents4{
+       flex-basis: 25% !important;
+      }
+      .Trusted-by-companents{
+    padding-left: 30px !important; 
+      }
   }
-
+  
+  @media (max-width:519px) {
+      .Trusted-by-companents{
+        padding-left: 0 !important; 
+          }
+    }
+  
+  
