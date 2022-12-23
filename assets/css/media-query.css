@@ -96,28 +96,20 @@
 
 
 /* Trusted-by-companents-section start */
-@media (min-width:741px) and (max-width:982px){
+
+@media  (max-width:982px){
   .companents1, .companents2,.companents3, .companents4{
-    flex-wrap: nowrap !important;
-    padding: 5px 50px;
-    margin: 10px 50px !important;
-    
-    
-  }
+     flex-basis: 25% !important;
+    }
+    .Trusted-by-companents{
+  padding-left: 30px !important; 
+    }
 }
 
-@media (max-width:700px) {
-  .companents1, .companents2,.companents3, .companents4{
-    padding: 0 20px !important;
-    margin: 10px 30px !important;
+@media (max-width:519px) {
+    .Trusted-by-companents{
+      padding-left: 0 !important; 
+        }
   }
- 
-  
-}
-@media (max-width:502px) {
-  .companents1, .companents2,.companents3, .companents4{
-    padding: 0 20px  !important;
-    margin: 10px 0px !important;
-    
-  }
-}
+
+
