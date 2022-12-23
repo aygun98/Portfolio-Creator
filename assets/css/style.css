@@ -15,6 +15,8 @@ a{
    
     text-decoration: none;
 }
+
+/* header start */
 header{
     
     display: flex;
@@ -32,26 +34,21 @@ header .fa-bars{
     
     display: none;
 }
+ /* header the end */
 
 /* introsection  start*/
 .introsection{
     display: flex;
     justify-content: space-between;
-   
-    /* flex-wrap: wrap; */
     padding: 0 112.5px;
 }
 
 .introsection .left-side h1{
-    
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 82px;
     letter-spacing: 2px;
-    /* margin-bottom: 10px; */
-    
- 
 }
 .introsection .left-side h1 span{
      color: #FF8A56;
@@ -69,7 +66,6 @@ header .fa-bars{
 }
 .introsection .left-side small{
     display: inline-block;
-    
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -96,9 +92,9 @@ header .fa-bars{
 }
 
 
-/* introsection  end*/
+/* introsection  the end*/
 
-/* Trusted-by-companents-section */
+/* Trusted-by-companents-section start */
 .Trusted-by-companents-section h3{
     font-family: 'Roboto';
     font-style: normal;
@@ -124,4 +120,5 @@ header .fa-bars{
     margin: 10px 50px ;
     min-width: 141px;
 }
-
+ /* .Trusted-by-companents-section the end */
+  
