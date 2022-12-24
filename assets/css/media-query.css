@@ -160,3 +160,40 @@
   
 }
 }
+
+ /* projects section  start*/
+ @media (max-width:928px) {
+  .projects-section{
+    padding-left: 0 !important;
+    /* align-items: center; */
+  }
+  .projects-text{
+    align-items: center;
+  }
+    .projects-text-button{
+      flex-direction: column;
+      padding-right: 0 !important;
+      align-items: center;
+    }
+   .projects-text-button > p{
+    text-align: center;
+    padding-bottom: 20px;
+   }
+    
+
+  .projects-cards{
+    flex-wrap: wrap !important;
+    justify-content: center;
+    padding-top: 30px !important;
+  }
+  .projects-cards .card .card-top{
+    width: 486px;
+    height: 305px;
+ }
+}
+@media (max-width:506px) {
+  .card-top{
+    width: 350px !important;
+    height: 250px;
+  }
+}
