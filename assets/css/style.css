@@ -9,6 +9,7 @@ body{
 }
 *{
     box-sizing: border-box;
+    /* outline: 1px solid black; */
    
 }
 a{
@@ -80,22 +81,26 @@ header .fa-bars{
     margin-bottom: 38px;
 }
 
-.introsection .left-side button{
+.introsection .left-side .book-a-call button{
     width: 151px;
     height: 58px;
     background-color:#000;
     color: #fff;
     margin-right: 40px;
-    transition: all 1s ease-out;
+    transition: all .5ms ease-out;
 }
-.introsection .left-side button:hover{
+.introsection .left-side .book-a-call button:hover{
     transform: scale(1.1);
 }
-.introsection .left-side a{
+.introsection .left-side .book-a-call a{
     margin: 0 15px;
     color: #000;
     cursor: pointer;
     font-size: 18px;
+}
+.introsection .left-side .book-a-call{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -254,7 +259,7 @@ line-height: 59px;
  color: #fff;
  cursor: pointer;
  
- transition: all 1s ease-in;
+ transition: all .5ms ease-in;
 }
 .projects-text-button > button:hover{
     transform: scale(1.1);
@@ -440,7 +445,12 @@ color: rgba(255, 255, 255, 0.7);
     padding-right: 20px;
 }
 
-.blog-section .blog-section .article-arrow:hover .arrow-white{
-    transition: all 1s ease-in;
+.blog-section .blog-right-side .article-arrow:hover .arrow-white{
+    transition: all 1s ease;
     transform: rotate(360deg);
 }
+
+.blog-section .blog-left-side .main-blog-link:hover .arrow-white{
+    transition: all 1s ease;
+    transform: rotate(360deg);
+} 

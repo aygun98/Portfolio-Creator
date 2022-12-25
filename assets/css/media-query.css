@@ -76,7 +76,7 @@
 }
 @media (max-width:556px) {
   .introsection{
-    overflow: hidden;
+    overflow-x: hidden;
    
     
   }
@@ -90,13 +90,23 @@
   .introsection .right-side{
     width: 100%;
   }
+  
 }
+
 @media (max-width:500px){
   .introsection .left-side h1{
     font-size: 45px !important;
   }
 }
+/* @media(max-width:517px){
+  .introsection .left-side{
+    width: 450px !important;
 
+  }
+  .introsection .right-side{
+  width: 450px !important;
+  }
+} */
 
 
 /* Trusted-by-companents-section start */
