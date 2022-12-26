@@ -344,6 +344,7 @@ line-height: 18px;
     display: flex;
     flex-direction: column;
     margin-top: -176px;
+    /* overflow-x: hidden; */
  }
  .blog-section .arrow{
    align-self: flex-end;
@@ -450,3 +451,76 @@ color: rgba(255, 255, 255, 0.7);
     transition: all 1s ease;
     transform: rotate(360deg);
 } 
+
+
+
+/* product-designer-section start */
+
+.product-designer-section{
+    display: flex;
+    flex-direction: column;
+    /* overflow-x: hidden; */
+}
+
+.product-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 112.5px;
+    
+}
+.product-designer-section .product-left{
+    padding: 156px 0 0;
+}
+.product-designer-section .product-right{
+    padding: 165px 0 0;
+}
+.product-designer-section .product-left h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #FF5E69;
+    
+}
+.product-designer-section .product-left p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 59px;
+letter-spacing: 1px;
+
+}
+.product-designer-section .product-right p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 40px;
+color: #666666;
+}
+
+/*product-designer-section -> product-image start */
+.product-image{
+    display: flex;
+    padding: 115px 112.5px 0 ;
+    gap: 16px;
+   
+   
+}
+.image-group{
+    display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* education-work-experience-section */
+/* .education-work-experience-section .education h1::before{
+ content:"\1F4DA";
+ font-size: 30px;
+ border: none;
+
+} */
