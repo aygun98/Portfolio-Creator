@@ -530,10 +530,10 @@ color: rgba(255, 255, 255, 0.7);
     flex-direction: column;
     gap: 83px;
 }
-.education-work-experience-section .education h1::before{
+/* .education-work-experience-section .education h1::before{
     content:"\1F4DA";
     font-size: 36px;
-}
+} */
 .education-work-experience-section .education h1, .work-experience h1{
     font-family: 'Roboto';
     font-style: normal;
@@ -633,7 +633,7 @@ padding-left:60px ;
     letter-spacing: 1px;
 }
 .testimonials-section{
-    padding: 191px 112.5px 10px;
+    padding: 191px 112.5px 150px;
 }
 
 .testimonials-image-text{
@@ -696,4 +696,146 @@ padding-left:60px ;
     margin:2px ;
    
    }
+
+
+   /* faq-section start */
+.faq-section{
+    background-color: #000;
+    color: #fff;
+ }
+   .faq-part{
+    padding-top: 78px;
+    text-align: center;
+   }
+.faq-section .faq-part h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #FF8A56;
+}
+
+.faq-section .faq-part p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.faq-section-comtanents{
+    padding: 150px 112.5px 71px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+.comtanent-part{
+    /* background-color: #ddd; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+  
+}
+.comtanent-part > div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(229, 229, 229, 0.3);
+    width: 500px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+/*  ready-section  */
+.ready-section{
+    padding:178px 112.5px 10px ;
+  
+}
+
+.ready-section .ready-head h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+
+.ready-section .ready-head h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 0.5px;
+    color: #3C46FF;
+}
+.ready-logo-about{
+    padding-top: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+.ready-logo-part{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.ready-logo-part h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+
+}
+.ready-logo-part .adress{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.ready-logo-part .adress span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 36px;
+    color: #5C5C5C;
+
+}
+.ready-logo-part > img{
+    width: 195.61px;
+    height: 19.32px;
+
+}
+.ready-about-part{
+    display: flex;
+    gap: 130px;
+}
+.ready-about-part > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.faq-section .footer{
+
+    display: flex;
+    padding: 141px 112.5px 10px;
+    justify-content: start;
+   
+}
+
+.faq-section .footer span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8A95AD;
+    padding-right: 10px;
+    
+}
   
