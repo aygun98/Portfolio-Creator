@@ -487,20 +487,20 @@ color: rgba(255, 255, 255, 0.7);
 }
 .product-designer-section .product-left p{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 54px;
-line-height: 59px;
-letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
 
 }
 .product-designer-section .product-right p{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 40px;
-color: #666666;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #666666;
 }
 
 /*product-designer-section -> product-image start */
@@ -513,14 +513,187 @@ color: #666666;
 }
 .image-group{
     display: flex;
-  flex-direction: column;
-  gap: 16px;
+    flex-direction: column;
+    gap: 16px;
 }
 
-/* education-work-experience-section */
-/* .education-work-experience-section .education h1::before{
- content:"\1F4DA";
- font-size: 30px;
- border: none;
+/* education-work-experience-section  start*/
+.education-work-experience-section{
+    display: flex;
+    padding: 154px 112px 0;
+    gap: 54px;
+    flex-wrap: wrap;
+   
+}
+.education-work-experience-section .education, .work-experience{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+.education-work-experience-section .education h1::before{
+    content:"\1F4DA";
+    font-size: 36px;
+}
+.education-work-experience-section .education h1, .work-experience h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+}
+.education-companent, .work-experience-companent{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 530px;
+}
+.education-companent-top, .work-experience-companent-top{
+    display: flex;
+    justify-content: space-between;
+}
+.education-companent-top h4, .work-experience-companent-top h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 26px; */
+}
+.education-companent-bottom, .work-experience-companent-bottom{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FFA84B; */
+    padding-bottom: 39px;
+    border-bottom: 1px solid #E5E5E5;
+    padding-right: 50px;
+}
+.education-companent-bottom h6, .work-experience-companent-bottom h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.education-companent-bottom span, .work-experience-companent-bottom span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.work-experience-companent{
+    position: relative;
+}
+.work-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 0px;
+    border-radius: 100px;
+    padding: 14.3px;
+}
 
-} */
+.work-experience-companent-top{
+padding-left:60px ;
+}
+.work-experience-companent-bottom{
+padding-left:60px ;
+}
+.cehrayi{
+    background-color: #FFB4E9;
+    padding-left: 15px;
+}
+.mavi{
+    background-color: #A5BEFF;
+    padding: 15px;
+}
+ .sari{
+    background-color: #FFC960;
+    padding-top: 16px;
+}
+
+/* testimonials-section start */
+.testimonials-section .testimonials-head h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4353FF;
+}
+.testimonials-head h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+.testimonials-section{
+    padding: 191px 112.5px 10px;
+}
+
+.testimonials-image-text{
+    padding-top: 85px;
+    display: flex;
+    gap: 70px;
+
+}
+.testimonials-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    min-width: 561px;
+}
+.testimonials-text > img{
+    width: 44px;
+    height: 44px;
+}
+.testimonials-text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+     padding-top: 30px;
+    
+}
+.john-side-arrow{
+    display: flex;
+    padding-top: 95px;
+    align-items: center;
+  justify-content: space-between;
+  
+}
+.testimonials-text .john-side-arrow h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+
+.testimonials-text .john-side-arrow .founder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;    
+}
+
+.testimonials-arrow  .material-symbols-outlined{
+    width: 54px;
+    height: 54px;
+    color: rgb(250, 241, 241);
+    background-color: rgb(7, 6, 6);
+    padding: 11px;
+    padding-left: 22px;
+    cursor: pointer;
+    margin:2px ;
+   
+   }
+  
