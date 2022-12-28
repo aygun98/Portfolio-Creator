@@ -111,9 +111,9 @@ header .fa-bars{
     cursor: pointer;
 }
 
-.introsection-cv:hover{
-    padding-right: 50px;
-    transition: all 1s ease ;
+.book-a-call:hover .introsection-arrow-img{
+     transform: rotate(180deg);
+     transition: all .5ms ease ;
 }
 
 
