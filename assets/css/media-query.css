@@ -489,6 +489,16 @@ font-size: 19px !important;
   text-align: center;
 }
 }
+@media (max-width:1293px) {
+  .testimonials-arrow  .material-symbols-outlined{ 
+  width: 40px !important;
+    height: 40px !important;
+    padding: 3px !important;
+    margin:2px !important ;
+    padding-left: 14px !important;
+  }
+  
+}
 
 @media (max-width:595px){
   .testimonials-text{
@@ -528,6 +538,7 @@ font-size: 19px !important;
  }
 
 }
+
 @media (max-width:530px){
   .testimonials-image > img{
   
