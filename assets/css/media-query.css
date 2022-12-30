@@ -133,15 +133,23 @@
   }
  
   .services-cards{
-   gap: 10px !important;
+   gap: 20px !important;
    padding-left: 50px !important; 
    justify-content: center !important;
   }
 }
 @media  (max-width:962px) {
+  .services-cards{
+    margin: 0 auto !important;
+    padding-left: 30px !important;
+  }
   .service-card{
     width: 329px !important;
+    padding-left: 40px !important;
   } 
+  .service-card > ul{
+    align-self: flex-start;
+}
 }
   
 @media (max-width:830px) {
@@ -195,6 +203,7 @@ font-size: 40px !important;
     flex-wrap: wrap !important;
     justify-content: center;
     padding-top: 30px !important;
+    
   }
   .projects-cards .card .card-top{
     width: 486px;

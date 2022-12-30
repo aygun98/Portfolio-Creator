@@ -171,11 +171,10 @@ text-align: center;
 letter-spacing: 1px;
 padding-top: 20px;
 padding-bottom: 117px;
-
-
 }
 .service-card img{
-    min-width: 70px;
+    width: 70px;
+    height: 70px;
 }
 .services-cards{
     display: flex;
@@ -188,33 +187,38 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 26px;
+padding-top: 20px;
 }
 .service-card > p{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #666666;
-padding-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+    padding-top: 25px;
 }
 .service-card > ul{
     padding-top: 21px;
 }
  .service-card > ul > li{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 28px;
-list-style: square;
-list-style-position:inside ;
-padding-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    list-style: square;
+    list-style-position:inside ;
+    padding-top: 10px;
+   
  }
  .service-card{ 
     min-width: 252px;
     padding: 10px;
     transition: all 1s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
  }
  .service-card:hover{
    
@@ -292,7 +296,7 @@ line-height: 59px;
  .projects-cards .card .card-top{
     max-width: 486px;
     max-height: 305px;
-    
+    background-color: #fff;
     
  }
  .projects-cards .card-top img{
