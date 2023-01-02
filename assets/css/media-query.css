@@ -33,7 +33,7 @@
     padding: 0 !important;
   }
   .introsection .left-side{
-    min-width: 500px !important;
+    width: 500px !important;
     padding-top: 80px !important;
     
   }
@@ -82,6 +82,12 @@
    
     
   }
+ 
+  .introsection .left-side{
+    width: 100% !important;
+    /* padding-top: 80px !important; */
+    
+  }
   .introsection .left-side h1{
     font-size: 54px !important;
   }
@@ -90,15 +96,36 @@
     font-size:15px !important;
   }
   .introsection .right-side{
-    width: 100%;
+    width: 100% !important;
   }
   
+  .introsection .right-side > img{
+    width: 100% !important;
+  }
 }
 
-@media (max-width:500px){
+@media (max-width:499px){
+  
   .introsection .left-side h1{
-    font-size: 45px !important;
+    text-align: center !important;
+    font-size: 30px !important;
+    line-height:65px !important;
+
   }
+  .introsection .left-side small{
+    text-align: center;
+    font-size: 13px !important;
+    
+  }
+  .introsection .left-side .book-a-call{
+    /* text-align: center; */
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .introsection .left-side .book-a-call button{
+  
+    margin-right: 10px !important;
+}
 }
 
 
@@ -137,6 +164,9 @@
    padding-left: 50px !important; 
    justify-content: center !important;
   }
+  .service-card > .logo-container{
+    padding-left: 80px;
+  }
 }
 @media  (max-width:962px) {
   .services-cards{
@@ -144,7 +174,7 @@
     padding-left: 30px !important;
   }
   .service-card{
-    width: 329px !important;
+    min-width: 329px !important;
     padding-left: 40px !important;
   } 
   .service-card > ul{
@@ -174,7 +204,7 @@
 font-size: 40px !important;
 }
 .service-card{
-  width: 300px !important;
+  /* width: 300px !important; */
   
 }
 }
@@ -224,12 +254,17 @@ font-size: 40px !important;
 }
 @media (max-width:561px) {
   .projects-cards .card{
-    width: 400px !important;
+    z-index: 1;
     height: 382px !important;
   }
+    
+  .projects-cards .card{
+    width: 100% !important;
+  }
   .projects-cards .card .card-top{
-    width: 400px !important;
+    width: 82.9% !important;
     height: 219px !important;
+    margin: 0 auto;
     
  }
  .projects-section .card-bottom{
@@ -239,6 +274,7 @@ font-size: 40px !important;
   object-fit: cover;
 }
 .projects-section .card-bottom{
+  margin: 0 auto;
   padding: 30px !important;
 } 
 }
@@ -463,7 +499,9 @@ font-size: 19px !important;
   flex-basis: 100% !important;
 }
 .education-companent, .work-experience-companent{
-  min-width: 450px!important;
+  /* min-width: 450px!important; */
+  min-width: 100%!important;
+  
 }
 .education, .work-experience{
   gap: 15px !important;
@@ -488,14 +526,48 @@ font-size: 19px !important;
     width: 100% !important;
     padding-top: 0 !important;
   }
+  .testimon-dirnaq{
+    width: 33px !important;
+    height: 33px !important;
+  }
 }
-@media (max-width:710px) {
+@media (max-width:1150px){
+  .testimonials-section{
+    padding: 150px 20px 10px !important;
+}
+}
+@media (max-width:759px) {
   .testimonials-section{
     padding: 150px 20px 10px !important;
     
 }
 .testimonials-head{
   text-align: center;
+}
+.testimonials-text p{
+  
+  font-size: 30px !important;
+  line-height: 47px;
+   padding-top: 30px;
+  
+}
+.testimon-dirnaq{
+  width: 33px !important;
+  height: 33px !important;
+}
+.testimonials-text{
+  align-items: center !important;
+}
+.john-side-arrow{
+  align-self: flex-start;
+  width: 100% !important;
+}
+.testimon-dirnaq-container{
+  align-self: flex-start;
+ 
+}
+.testimon-dirnaq{
+  padding-left: 10% !important;
 }
 }
 @media (max-width:1293px) {
@@ -510,13 +582,11 @@ font-size: 19px !important;
 }
 
 @media (max-width:595px){
-  .testimonials-text{
-    min-width: 450px !important;
-  }
+  
   .testimonials-head h1{
     font-size: 48px !important;
 }
-.testimonials-text > img{
+.testimon-dirnaq{
   width: 30px !important;
   height: 30px !important;
 }
@@ -541,11 +611,13 @@ font-size: 19px !important;
   margin:2px ;
  
  }
- .testimonials-image-text > img{
+ .testimonials-image-text .testimonials-image{
   
-   min-width: 450px !important;
+   width: 100% !important;
  }
-
+ .testimonials-text{
+   width: 100% !important;
+  }
 }
 
 @media (max-width:530px){
