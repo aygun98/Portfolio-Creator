@@ -152,6 +152,7 @@ header .fa-bars{
 /* services-section start//////////////////////////////////////////////////////////////////////////////////////////// */
 .services-section{
     padding-top: 70px;
+   
 }
 .services-section > h4{
     font-family: 'Roboto';
@@ -188,6 +189,7 @@ padding-bottom: 117px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+ 
 }
 .service-card > h4{
     font-family: 'Roboto';
@@ -209,6 +211,9 @@ padding-top: 20px;
 .service-card > ul{
     padding-top: 21px;
 }
+.service-card > ul li::marker{
+    font-size: 20px;
+}
  .service-card > ul > li{
     font-family: 'Roboto';
     font-style: normal;
@@ -218,6 +223,7 @@ padding-top: 20px;
     list-style: square;
     list-style-position:inside ;
     padding-top: 10px;
+    
    
  }
  .service-card{ 
@@ -266,6 +272,7 @@ color: #B16CEA;
  .projects-text-button {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     padding-top: 20px;
     padding-right: 112px;
  }
@@ -887,6 +894,7 @@ color: rgba(255, 255, 255, 0.7);
 }
 .ready-about-part > ul > li{
     cursor: pointer;
+    list-style: none;
 }
 .ready-about-part > ul > li:hover{
     color: #3C46FF;
