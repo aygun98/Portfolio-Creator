@@ -250,20 +250,22 @@ font-size: 40px !important;
   }
     
   .projects-cards .card{
-    width: 100% !important;
-    /* margin: 0 auto !important; */
+    max-width: 400px !important;
+    
   }
   .projects-cards .card .card-top{
     height: 219px !important;
     margin: 0 auto;
-    max-width: 400px !important;
+    width: 100% !important;
     
  }
  .projects-section .card-bottom{
-  max-width: 400px !important;
+  width: 100% !important;
+ 
  }
  .projects-cards .card-top img{
   object-fit: cover;
+  width: 100% !important;
 }
 .projects-section .card-bottom{
   margin: 0 auto;
