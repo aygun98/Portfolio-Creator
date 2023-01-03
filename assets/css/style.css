@@ -233,6 +233,7 @@ padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    cursor: pointer;
  }
  .service-card:hover{
    
@@ -243,6 +244,7 @@ padding-top: 20px;
 
  /* projects section start /////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
  .projects-section{
+    
     display: flex;
     flex-direction: column;
     padding-top: 167px;
@@ -253,16 +255,12 @@ padding-top: 20px;
  .projects-text > h4{
 
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 22px;
-
-
-letter-spacing: 4px;
-text-transform: uppercase;
-
-color: #B16CEA;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #B16CEA;
 
  }
  .projects-text{
@@ -297,6 +295,7 @@ line-height: 59px;
     transform: scale(1.1);
  }
  .projects-cards{
+    z-index: 1;
     display: flex;
     padding-top: 70px;
     gap: 24px;
