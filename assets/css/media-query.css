@@ -275,22 +275,7 @@ font-size: 30px !important;
     font-size: 49px !important;
     }
 }
-@media (max-width:543px){
-  .projects-section .card-bottom h4{
-    
-    font-size: 19px !important;
-    
- }
-.projects-text-button > p{
- 
-font-size: 40px !important;
-}
-.projects-section .card-bottom .view-project{
-  
-  font-size: .9rem !important ;
-  
-}
-}
+
 @media (max-width:561px) {
   .projects-cards .card{
     z-index: 1;
@@ -320,7 +305,22 @@ font-size: 40px !important;
   padding: 30px !important;
 } 
 }
-
+@media (max-width:543px){
+  .projects-section .card-bottom h4{
+    
+    font-size: 19px !important;
+    
+ }
+.projects-text-button > p{
+ 
+font-size: 40px !important;
+}
+.projects-section .card-bottom .view-project{
+  
+  font-size: .9rem !important ;
+  
+}
+}
 
 /* blog-section start //////////////////////////////////////////////////////////*/
 @media (max-width:1293px) {
@@ -357,8 +357,8 @@ font-size: 40px !important;
 @media(max-width:668px){
   
   .blog-section .main{
-    align-items: center;
-    padding-left: 0px !important;
+    
+    margin: 0 auto !important;
   }
   .blog-right-side .article h4{
     font-size: 21px !important;
@@ -697,7 +697,7 @@ font-size: 19px !important;
 @media (max-width:587px){
   .faq-section-companents .companent-part div{
       max-width: 420px !important;
-      align-items: center !important;
+      margin: 0 auto !important;
     }
     .faq-section .faq-part p{
       
