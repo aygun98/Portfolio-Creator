@@ -357,8 +357,8 @@ font-size: 40px !important;
 @media(max-width:668px){
   
   .blog-section .main{
-    
-    margin: 0 auto !important;
+    align-self: center !important;
+    /* margin: 0 auto !important; */
   }
   .blog-right-side .article h4{
     font-size: 21px !important;
