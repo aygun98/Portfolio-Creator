@@ -8,10 +8,10 @@
     font-size: 25px !important;
     width: 10px !important;
     cursor: pointer;
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
   }
   header .fa-bars:hover{
-    transform:scale(1.5);
+    transform:scale(1.1);
   }
   .nav-links{
     display: none;
